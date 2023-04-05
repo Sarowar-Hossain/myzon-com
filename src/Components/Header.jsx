@@ -8,12 +8,12 @@ const Header = () => {
       <div className="text-2xl font-bold m-0 p-0 text-white">
         <Link to='/'>My<span className="text-orange-500 m-0 p-0">Zone</span>.com</Link>
       </div>
-      <div className="m-0 p-0 text-white inline-flex gap-3 font-semibold">
+      <nav className="m-0 p-0 text-white inline-flex gap-3 font-semibold">
         <Link className="hover:text-orange-500" to="/">Home</Link>
         <Link className="hover:text-orange-500" to="/shop">Shop</Link>
         <Link className="hover:text-orange-500" to="/order">Order</Link>
         <Link className="hover:text-orange-500" to="/about">About</Link>
-      </div>
+      </nav>
     </div>
   );
 };

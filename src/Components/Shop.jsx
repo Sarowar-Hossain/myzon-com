@@ -8,7 +8,7 @@ const Shop = () => {
   const products = data.products;
   return (
     <div className="flex">
-      <div className="grid grid-cols-3 gap-3 w-4/5 m-10">
+      <div className="grid grid-cols-3 gap-6 w-4/5 m-10">
         {products.map((product) => (
           <Products product={product} key={product.id}></Products>
         ))}
